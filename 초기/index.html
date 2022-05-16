@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <body></body>
-    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
-    <script></script>    
+    <body>
+        <div id="root"></div>
+    </body>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script>
+        const root = document.getElementById("root");
+        const span = React.createElement(
+            "span", //만들 element
+            {id: "sexy-span", style: { color:"red" } }, //property(class, id, style, ...)
+            "Hello I'm a span" // value(tag안의 내용)
+            
+            // <span id="sexy-span">Hello I'm a span</span> 
+        );
+
+        //script로 ReactDOM을 불러온다.
+        //render: ReactElement를 HTML로 만들어 배치시킨다.
+        // 첫쨰 인자: ReactElement, 둘쨰 인자: 자식tag로 추가할 부모 tag
+        ReactDOM.render(span, root)
+    </script>    
 </html>
