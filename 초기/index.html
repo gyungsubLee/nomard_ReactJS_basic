@@ -10,7 +10,7 @@
         const root = document.getElementById("root");
         
         // <JSX> -> babel -> React.createElement
-        const Title = (
+        const Title = () =>  (
             <h3 
                 id="titie" 
                 onMouseEnter={() => alert("MouseEnter!")}
@@ -18,7 +18,7 @@
                 Hello
             </h3>
         );
-        const Button = (
+        const Button = () => (
             <button 
                 id="button"
                 style={{
@@ -30,7 +30,13 @@
             </button>
         );
 
-        const container = React.createElement("div", null, [Title, Button])
-        ReactDOM.render(container, root);
+        const Container = () =>(
+            <div>
+                <Title />
+                <Button />
+            </div>
+        ) 
+
+        ReactDOM.render(Container, root);
     </script>    
 </html>
