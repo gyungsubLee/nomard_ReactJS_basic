@@ -5,5 +5,5 @@
 
 ---
 
-## Chapter2: React.createElement를 사용한 React-dom rendering <br>
-https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/1
+## Chapter2
+[React.createElement를 사용한 React-dom rendering](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/1)
