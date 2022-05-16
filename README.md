@@ -1,3 +1,9 @@
-#  노마드코더 ReactJS로 영화 웹서비스 만들기 정리본
-https://nomadcoders.co/react-for-beginners/lobby
+  노마드코더 ReactJS로 영화 웹서비스 만들기 정리본<br>
+(https://nomadcoders.co/react-for-beginners/lobby)
 
+<br/>
+
+---
+
+## Chapter2: React.createElement를 사용한 React-dom rendering <br>
+https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/1
