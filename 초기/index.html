@@ -3,21 +3,28 @@
     <body>
         <div id="root"></div>
     </body>
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
     <script>
         const root = document.getElementById("root");
+        
         const span = React.createElement(
-            "span", //만들 element
-            {id: "sexy-span", style: { color:"red" } }, //property(class, id, style, ...)
-            "Hello I'm a span" // value(tag안의 내용)
-            
-            // <span id="sexy-span">Hello I'm a span</span> 
+            "h3",
+            {
+                onMouseEnter: () => alert("MouseEnter!")
+            }, 
+            "Hello");
+        const btn = React.createElement(
+            "button", 
+            {
+                id:"button",
+                onClick: () => console.log("im clicked"),
+                style:{backgroundColor:"tomato"},
+            }, 
+            "Click me"
         );
+        const div = React.createElement("div", null, [span, btn]) //createElement를 다르게 써서 오류가 낫다. 근데 오류 메세지를 확인안하고 삽질을 해 30분 버림. 오류 메세지부터 정확하게 보자
 
-        //script로 ReactDOM을 불러온다.
-        //render: ReactElement를 HTML로 만들어 배치시킨다.
-        // 첫쨰 인자: ReactElement, 둘쨰 인자: 자식tag로 추가할 부모 tag
-        ReactDOM.render(span, root)
+        ReactDOM.render(div, root);
     </script>    
 </html>
