@@ -15,7 +15,7 @@
             }
             const reset = () => setAmount(0); //로직1개 {}생략가능
             const onFlip = () => {
-                setFlipped(!flipped);
+                setFlipped((current) => !current);
                 reset();
             }
             return (
