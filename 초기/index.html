@@ -6,8 +6,8 @@
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel">        
-        const App = () => {
+    <script type="text/babel">
+        const MinutesToHours = () =>{
             const [amount, setAmount] = React.useState(0);
             const [flipped, setFlipped] = React.useState(false);
             const onChange = (event) => {
@@ -18,9 +18,8 @@
                 setFlipped((current) => !current);
                 reset();
             }
-            return (
+            return(
                 <div>
-                    <h1>Super Converter</h1>
                     <div>
                         <label htmlFor="Minutes">Minutes</label>
                         <input 
@@ -45,6 +44,20 @@
                     </div>
                     <button onClick={reset}>Reset</button>
                     <button onClick={onFlip}>{flipped? "turn back":"flipped"}</button>
+                </div>
+            );
+        };        
+        
+        const KmToMiles = () => {
+            return <h3>KM 2 M</h3>;
+        }
+
+        const App = () => {
+            return (
+                <div>
+                    <h1>Super Converter</h1>
+                    <MinutesToHours />
+                    <KmToMiles />
                 </div>
             );
         };
