@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script>
     <script type="text/babel">
 
-        function Btn({ text, fontSize }) {
+        function Btn({ text, fontSize=14 }) {
             return (
                 <button 
                     style={{
@@ -28,14 +28,14 @@
 
         Btn.propTypes = {
             text: PropTypes.string.isRequired,
-            fontSize: PropTypes.number.isRequired,
+            fontSize: PropTypes.number,
         };
 
         const App = () => {
             return (
                 <div>
-                    <Btn text="Save Changes" fontSize={18}/>
-                    <Btn text="Continue"fontSize={14}/>
+                    <Btn text="Save Changes" fontSize={18} />
+                    <Btn text="Continue" />
                 </div>
             );
         };
