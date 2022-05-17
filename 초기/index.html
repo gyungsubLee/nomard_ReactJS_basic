@@ -7,69 +7,32 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
-        const MinutesToHours = () =>{
-            const [amount, setAmount] = React.useState(0);
-            const [flipped, setFlipped] = React.useState(false);
-            const onChange = (event) => {
-                setAmount(event.target.value);
-            }
-            const reset = () => setAmount(0); //로직1개 {}생략가능
-            const onFlip = () => {
-                setFlipped((current) => !current);
-                reset();
-            }
-            return(
-                <div>
-                    <div>
-                        <label htmlFor="Minutes">Minutes</label>
-                        <input 
-                            id="Minutes" 
-                            placeholder="Minutes" 
-                            type="number" 
-                            value={flipped? amount * 60 : amount}
-                            onChange={onChange}
-                            disabled={flipped}
-                        />
-                    </div>
-                    <div>
-                        <label htmlFor="Hours">Hours</label>
-                        <input 
-                            id="Hours" 
-                            placeholder="Hours" 
-                            type="number" 
-                            value={flipped? amount : Math.round(amount / 60)}
-                            onChange={onChange}
-                            disabled={!flipped}
-                        />
-                    </div>
-                    <button onClick={reset}>Reset</button>
-                    <button onClick={onFlip}>{flipped? "turn back":"flipped"}</button>
-                </div>
-            );
-        };        
-        
-        const KmToMiles = () => {
-            return <h3>KM 2 M</h3>;
+
+        function SaverBtn() {
+            return <button style={{
+                backgroundColor:"tomato",
+                color:"white",
+                padding:10,
+                border:0,
+                borderRadius:10,
+            }}>Save Changes</button>
+        }
+
+        function ConfirmBtn() {
+            return <button style={{
+                backgroundColor:"tomato",
+                color:"white",
+                padding:10,
+                border:0,
+                borderRadius:10,
+            }}>Confirm</button>
         }
 
         const App = () => {
-            const [index, setIndex] = React.useState("xx");
-            const onSelect = (event) => {
-                console.log(event.target.value);
-                setIndex(event.target.value);
-            }
             return (
                 <div>
-                    <h1>Super Converter</h1>
-                    <select onChange={onSelect}>
-                        <option value="xx">Select your units</option>
-                        <option value="0">Minutes & Hours</option>
-                        <option value="1">Km & Miles</option>
-                    </select>
-                    <hr />
-                    {(index === "xx")? <h3>Pleace select units</h3> : null }
-                    {(index === "0")? <MinutesToHours /> : null }
-                    {(index === "1")? <KmToMiles /> : null }
+                    <SaverBtn />
+                    <ConfirmBtn />
                 </div>
             );
         };

@@ -3,6 +3,8 @@
 
 <br/>
 
+component는 JSX를 return 하는 함수이다.
+
 ---
 
 ### Chapter2
