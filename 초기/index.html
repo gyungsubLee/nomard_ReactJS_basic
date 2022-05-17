@@ -7,32 +7,29 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
-
-        function SaverBtn() {
-            return <button style={{
-                backgroundColor:"tomato",
-                color:"white",
-                padding:10,
-                border:0,
-                borderRadius:10,
-            }}>Save Changes</button>
-        }
-
-        function ConfirmBtn() {
-            return <button style={{
-                backgroundColor:"tomato",
-                color:"white",
-                padding:10,
-                border:0,
-                borderRadius:10,
-            }}>Confirm</button>
-        }
+        function Btn({ text, big }) {
+            console.log(text, big)
+            return (
+                <button 
+                    style={{
+                        backgroundColor:"tomato",
+                        color:"white",
+                        padding:10,
+                        border:0,
+                        borderRadius:10,
+                        fontSize: big? 18 : 16,
+                    }}
+                >
+                    {text}
+                </button>
+            );
+        };
 
         const App = () => {
             return (
                 <div>
-                    <SaverBtn />
-                    <ConfirmBtn />
+                    <Btn text="Save Changes" big={true}/>
+                    <Btn text="Continue"/>
                 </div>
             );
         };
