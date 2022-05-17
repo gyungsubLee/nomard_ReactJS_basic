@@ -12,6 +12,9 @@
             const onChange = () => {
                 setMinutes(event.target.value);
             }
+            const reset = () => {
+                setMinutes(0);
+            }
 
             return (
                 <div>
@@ -19,17 +22,23 @@
                     <div>
                         <label htmlFor="Minutes">Minutes</label>
                         <input 
-                            className="Minutes" 
+                            value={minutes}
+                            id="Minutes" 
                             placeholder="Minutes" 
                             type="number" 
                             onChange={onChange}
                         />
-                        <h4>You want to convert: {minutes}</h4>
                     </div>
                     <div>
                         <label htmlFor="Hours">Hours</label>
-                        <input className="Hours" placeholder="Hours" type="number" />
+                        <input 
+                            value={Math.round(minutes / 60)}
+                            id="Hours" 
+                            placeholder="Hours" 
+                            type="number" 
+                        />
                     </div>
+                    <button onClick={reset}>Reset</button>
                 </div>
             );
         };
