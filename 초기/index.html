@@ -27,15 +27,15 @@
         };
 
         Btn.propTypes = {
-            text: PropTypes.string,
-            fontSize: PropTypes.number,
+            text: PropTypes.string.isRequired,
+            fontSize: PropTypes.number.isRequired,
         };
 
         const App = () => {
             return (
                 <div>
-                    <Btn text="Save Changes"  fontSize={18}/>
-                    <Btn text={14} fontSize={"Continue"}/>
+                    <Btn text="Save Changes" fontSize={18}/>
+                    <Btn text="Continue"fontSize={14}/>
                 </div>
             );
         };
