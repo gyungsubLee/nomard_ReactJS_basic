@@ -14,3 +14,8 @@ component는 JSX를 return 하는 함수이다.
 
 ### Chapter3
 [React의 State](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2)
+
+<br/>
+
+### Chapter4
+[React의 Prop](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/3)
