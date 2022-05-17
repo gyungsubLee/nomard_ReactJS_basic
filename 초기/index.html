@@ -3,26 +3,38 @@
     <body>
         <div id="root"></div>
     </body>
-    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel">
-        const root = document.getElementById("root");
-        
+    <script type="text/babel">        
         const App = () => {
-            const [counter, setCounter] = React.useState(0);
-            const onClick = () =>{
-                // setCounter(counter + 1)
-                setCounter((current) => current + 1);
+            const [minutes, setMinutes] =React.useState(0)
+            const onChange = () => {
+                setMinutes(event.target.value);
             }
-            return(
+
+            return (
                 <div>
-                    <h3>Total clicks: {counter}</h3>
-                    <button onClick={onClick}>Click me</button>
+                    <h1>Super Converter</h1>
+                    <div>
+                        <label htmlFor="Minutes">Minutes</label>
+                        <input 
+                            className="Minutes" 
+                            placeholder="Minutes" 
+                            type="number" 
+                            onChange={onChange}
+                        />
+                        <h4>You want to convert: {minutes}</h4>
+                    </div>
+                    <div>
+                        <label htmlFor="Hours">Hours</label>
+                        <input className="Hours" placeholder="Hours" type="number" />
+                    </div>
                 </div>
             );
         };
-            
+                
+        const root = document.getElementById("root");
         ReactDOM.render(<App />, root);
     </script>    
 </html>
