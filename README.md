@@ -11,4 +11,4 @@
 <br/>
 
 ### Chapter3
-[React의 State](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/3)
+[React의 State](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2)
