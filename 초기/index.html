@@ -8,37 +8,43 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">        
         const App = () => {
-            const [minutes, setMinutes] =React.useState(0)
-            const onChange = () => {
-                setMinutes(event.target.value);
+            const [amount, setAmount] = React.useState(0);
+            const [flipped, setFlipped] = React.useState(false);
+            const onChange = (event) => {
+                setAmount(event.target.value);
             }
-            const reset = () => {
-                setMinutes(0);
+            const reset = () => setAmount(0); //로직1개 {}생략가능
+            const onFlip = () => {
+                setFlipped(!flipped);
+                reset();
             }
-
             return (
                 <div>
                     <h1>Super Converter</h1>
                     <div>
                         <label htmlFor="Minutes">Minutes</label>
                         <input 
-                            value={minutes}
                             id="Minutes" 
                             placeholder="Minutes" 
                             type="number" 
+                            value={flipped? amount * 60 : amount}
                             onChange={onChange}
+                            disabled={flipped}
                         />
                     </div>
                     <div>
                         <label htmlFor="Hours">Hours</label>
                         <input 
-                            value={Math.round(minutes / 60)}
                             id="Hours" 
                             placeholder="Hours" 
                             type="number" 
+                            value={flipped? amount : Math.round(amount / 60)}
+                            onChange={onChange}
+                            disabled={!flipped}
                         />
                     </div>
                     <button onClick={reset}>Reset</button>
+                    <button onClick={onFlip}>{flipped? "turn back":"flipped"}</button>
                 </div>
             );
         };
