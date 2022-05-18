@@ -25,3 +25,10 @@ component는 JSX를 return 하는 함수이다.
 
 ### Chapter5
 [CRA를 이용한 ReactJS 사용](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4)
+
+
+<br/>
+
+
+### Chapter6
+[useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5)
