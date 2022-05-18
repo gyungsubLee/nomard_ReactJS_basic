@@ -32,3 +32,5 @@ component는 JSX를 return 하는 함수이다.
 
 ### Chapter6
 [useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5)
+
+[useEffect 정리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129710634)
