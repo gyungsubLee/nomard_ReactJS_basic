@@ -3,8 +3,11 @@
 
 <br/>
 
-component는 JSX를 return 하는 함수이다.
+[ 오류노트 - callback](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129519000)
+->  1급객체, callback, 익명함수, arrow function 정리 필요
 
+[오류노트 - useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1131042191) 
+->  SPA, React_Component, Effect, useEffect 정리 필요 
 ---
 
 ### Chapter2
@@ -33,4 +36,4 @@ component는 JSX를 return 하는 함수이다.
 ### Chapter6
 [useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5)
 
-[useEffect 정리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129710634)
+  [useEffect 정리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129710634)
