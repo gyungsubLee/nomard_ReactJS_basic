@@ -1,24 +1,36 @@
 import React, { useState, useEffect } from "react";
 
-function Hello() {
-  function byFn(){
-    console.log("bye");
-  }
-  function hiFn(){
-    console.log("hi");
-    return byFn;
-  }
-  useEffect(hiFn, [])
-  return <h1>Hello</h1>;
-}
-
 function App() {
-  const [showing, setShowing] = useState(false);
-  const onClick = () => setShowing(pre => !pre);
+  const [todo, setTodo] = useState("");
+  const [toDos, setToDos] = useState([]);
+
+  const onChange = event => setTodo(event.target.value);
+  const onSubmit = (event) => {
+    event.preventDefault();
+    if (todo === ""){
+      return;
+    }
+    setToDos(currentArray => [...currentArray, todo]);
+    setTodo("");
+  }
+  const onClick = () => {
+    setToDos([]);
+  }
+
   return (
     <React.Fragment>
-      {showing? <Hello /> : null}
-      <button onClick={onClick}>{showing ? "Hide" : "Show"}</button>
+      <form onSubmit={onSubmit}>
+        <input 
+          placeholder="please write your todo"
+          value={todo}
+          onChange={onChange}
+        />
+        <input type="submit" value="submit" />    
+        <button onClick={onClick}>reset</button>
+      </form>
+      {toDos.map((item, idx)=>(
+            <li key={idx}>{item}</li>
+        ))}
     </React.Fragment>
   );
 }
