@@ -23,7 +23,7 @@ Component, 함수형, JSX 정리 필요
 
 [setState 인자 설정](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128482191), [setState 인자 유무 차이점](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1127323199)
 
-["select, option"요소, state, 삼항연산자를 통한 componet_control](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128532108)
+[< select, option >요소, state, 삼항연산자를 통한 componet_control](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128532108)
 
 [오류노트-input_value-State관리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128440625)
 
