@@ -5,31 +5,26 @@
 
 ---
 
-### Chapter2
-[React.createElement를 사용한 React-dom rendering 방식](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/1)
+### Chapter2([React.createElement를 사용한 React-dom rendering 방식](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/1))
 
 <br/>
 
-### Chapter3
-[React의 State 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2)
+### Chapter3([React의 State 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2))
 
 <br/>
 
-### Chapter4
-[React의 Prop 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/3)
+### Chapter4([React의 Prop 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/3))
 
 
 <br/>
 
-### Chapter5
-[CRA를 이용한 ReactJS 사용하기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4)
+### Chapter5([CRA를 이용한 ReactJS 사용하기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4))
 
 
 <br/>
 
 
-### Chapter6
-[useEffect 훅 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5)
+### Chapter6([useEffect 훅 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5))
 
   [useEffect 정리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129710634)
 
@@ -40,8 +35,7 @@
   ->  SPA, React_Component, Effect, useEffect 정리 필요 
 
 
-### Chapter6
-[간단한 Application 만들기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6)
+### Chapter6([간단한 Application 만들기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6))
 
   [CRUD, 불변성, 예외처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131268396)
   -> CRUD, 불변성 정리 필요
