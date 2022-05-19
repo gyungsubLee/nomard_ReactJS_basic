@@ -21,7 +21,26 @@ function App() {
 
   return (
     <React.Fragment>
-      {loading? <h1>Loading...</h1> : null}
+      {loading? (
+        <h1>Loading...</h1> 
+      ) : ( 
+        <div>
+          {movies.map(movie =>(
+            <div key={movie.id}>
+              <img src={movie.medium_cover_image} />
+              <h2>{movie.title}</h2>
+              <p>{movie.summary}</p>
+              <ul>
+                <li>
+                  {movie.genres.map((g) =>(
+                    <li key={g}>{g}</li>
+                  ))}
+                </li>
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
     </React.Fragment>
   );
 }
