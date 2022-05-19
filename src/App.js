@@ -17,6 +17,15 @@ function App() {
     setToDos([]);
   }
 
+  const toDos_local = JSON.parse(localStorage.getItem("todos"));
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify([...toDos]))
+  },  [toDos]);
+
+  useEffect(() => {
+    setToDos(toDos_local);
+  }, []);
+
   return (
     <React.Fragment>
       <form onSubmit={onSubmit}>
