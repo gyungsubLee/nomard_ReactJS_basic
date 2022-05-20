@@ -13,7 +13,7 @@ Component, 함수형, JSX 정리 필요
 
 ## Chapter3([React의 State 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2))
 
-[React의 DOM 업데이트](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1127236131) - 브라우저 작동원리(DOM Tree), DOM, 가상DOM 정리 필요
+[React의 DOM 업데이트](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1127236131) -> 브라우저 작동원리(DOM Tree), DOM, 가상DOM 정리 필요
 
 [JSX문법-property명, iput-State처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128396367)
 
@@ -49,7 +49,7 @@ Component, 함수형, JSX 정리 필요
 
 ## Chapter5([CRA를 이용한 ReactJS 사용하기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4))
 
-[CRA설치방법](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128882532) - yarn정리 필요
+[CRA설치방법](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128882532) -> yarn정리 필요
 
 [React - CSS ](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128985824)
 
@@ -77,7 +77,7 @@ Component, 함수형, JSX 정리 필요
 
   [웹스토리지](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131355647)
 
-  [배열의 내장함수](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131409429) - 배열의 내장함수(map, filter ...) 정리 필요
+  [배열의 내장함수](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131409429) -> 배열의 내장함수(map, filter ...) 정리 필요
 
   [fetch, HTTP요청메소트, 프로미스]() 
   -> fetch, HTTP요청메소드, 프로미스 정리 필요
@@ -86,7 +86,7 @@ Component, 함수형, JSX 정리 필요
 
   [PropTypes-Array](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132436270)
 
-  [Router](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132459464)
+  [Router](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132459464)<br/> -> HashRouter, BrowserRouter 정리 필요
 
   [Dynamic URL(동적 URL)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132492508)
 
