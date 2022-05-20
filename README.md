@@ -77,7 +77,7 @@ Component, 함수형, JSX 정리 필요
   [CRUD, 불변성, 예외처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131268396)
   -> update, 불변성, 스프레드 문법 정리 필요
 
-  [웹스토리지](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131355647)
+  [웹스토리지-localstorage, sessionStorage](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131355647)
 
   [배열의 내장함수](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131409429) -> 배열의 내장함수(map, filter ...) 정리 필요
 
