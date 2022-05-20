@@ -84,8 +84,25 @@ Component, 함수형, JSX 정리 필요
 
   [JSX <-> JS](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131585181)
 
-  [async/await](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131846111)
+  [PropTypes-Array](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132436270)
+
+  [Router](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132459464)
+
+  [Dynamic URL(동적 URL)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132492508)
+
+  [useParams를 이용한 URL 변수 가져오기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132492508)<br/>-> 개선코드:[구조분해할당처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132531345)
+  
+
+  [async/await](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132571022)
   -> async/await 정리 필요
 
-  [오류노트 - useEffect에서의 async/await](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131851167)
-  -> useEffect에서의 async/await 정리 필요
+  [gh-pages](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132935618)
+
+  [삼항연산자와 string.slice() 사용한  struing_view control](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1133060244)
+
+  <br/>
+
+  [오류노트 - Array.map 사용 시 Array가 undefind의 경우 발생하는 오류](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132426391) <br>
+  -> 논리연산자(and[&&]), 옵셔널체이닝[?]
+
+  [오류노트 - Detail에서 useEffect로 fetch 시 발생 (async/await)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132570977)
