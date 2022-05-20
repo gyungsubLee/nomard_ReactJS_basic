@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/nomard_ReactJS_basic.git/static/js/main.390926dd.js",
+    "main.css": "/nomard_ReactJS_basic.git/static/css/main.a55eaebb.css",
+    "main.js": "/nomard_ReactJS_basic.git/static/js/main.a64ce009.js",
     "index.html": "/nomard_ReactJS_basic.git/index.html",
-    "main.390926dd.js.map": "/nomard_ReactJS_basic.git/static/js/main.390926dd.js.map"
+    "main.a55eaebb.css.map": "/nomard_ReactJS_basic.git/static/css/main.a55eaebb.css.map",
+    "main.a64ce009.js.map": "/nomard_ReactJS_basic.git/static/js/main.a64ce009.js.map"
   },
   "entrypoints": [
-    "static/js/main.390926dd.js"
+    "static/css/main.a55eaebb.css",
+    "static/js/main.a64ce009.js"
   ]
 }
