@@ -107,4 +107,4 @@ Component, 함수형, JSX 정리 필요
   [오류노트 - Array.map 사용 시 Array가 undefind의 경우 발생하는 오류](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132426391) <br>
   -> 논리연산자(and[&&]), 옵셔널체이닝[?]
 
-  [오류노트 - Detail에서 useEffect로 fetch 시 발생 (async/await)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132570977)
+  [오류노트 - Detail에서 useEffect로 fetch 시 발생 (async/await)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132570977) -> 의문점 해결 안됨. 추가 정리 필요
