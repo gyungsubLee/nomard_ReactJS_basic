@@ -2,8 +2,10 @@ import React, { useMemo } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
+import styles from "./Movie.module.css"
 
-function Movie ({ id, coverImg, title, summary, genres, detail, url }) {
+
+function Movie ({ id, coverImg, title, year,summary, genres, detail, url }) {
     if(detail){
         return(
             <React.Fragment>
@@ -11,6 +13,7 @@ function Movie ({ id, coverImg, title, summary, genres, detail, url }) {
                 <a href={url} target="_blank" >
                     <h2>{title}</h2>
                 </a>
+                <h3>{year}</h3>
                 {genres?.map((g) =>(
                 <li key={g}>{g}</li>
                 ))}
@@ -19,20 +22,21 @@ function Movie ({ id, coverImg, title, summary, genres, detail, url }) {
     };
 
     return(
-        <React.Fragment>
-            <img src={coverImg} alt={title}/>
-            <h2>
-                <Link to={`/movie/${id}`}>{title}</Link>
-            </h2>
-            <p>{summary}</p>
-            <ul>
-                <li>
+        <div className={styles.movie}>
+            <img src={coverImg} alt={title} className={styles.movie__img}/>
+            <div>
+                <h2 className={styles.movie__title}>
+                    <Link to={`/movie/${id}`}>{title}</Link>
+                </h2>
+                <h3 className={styles.movie__year}>{year}</h3>
+                <p>{summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}</p>
+                <ul className={styles.movie__genres}>
                     {genres?.map((g) =>(
                     <li key={g}>{g}</li>
                     ))}
-                </li>
-            </ul>
-        </React.Fragment>
+                </ul>
+            </div>
+        </div>
     )
 }
 
