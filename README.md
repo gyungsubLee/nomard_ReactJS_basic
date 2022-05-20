@@ -88,7 +88,7 @@ Component, 함수형, JSX 정리 필요
 
   [PropTypes-Array](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132436270)
 
-  [Router](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132459464)<br/> -> HashRouter, BrowserRouter 정리 필요
+  [Router](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132459464) -> HashRouter, BrowserRouter 정리 필요
 
   [Dynamic URL(동적 URL)](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1132492508)
 
