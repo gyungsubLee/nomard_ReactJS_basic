@@ -25,7 +25,9 @@ Component, 함수형, JSX 정리 필요
 
 [< select, option >요소, state, 삼항연산자를 통한 componet_control](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128532108)
 
-[오류노트-input_value-State관리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128440625)
+<br/>
+
+[오류노트-input의 value={state}로 설정 후 setState 로직을 지울 경우 input에 데이터가 입력되지 않음](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128440625)
 
 
 
