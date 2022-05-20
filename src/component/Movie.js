@@ -8,7 +8,9 @@ function Movie ({ id, coverImg, title, summary, genres, detail, url }) {
         return(
             <React.Fragment>
                 <img src={coverImg} alt={title}/>
-                <a href={url} target="_blank" ><h2>{title}</h2></a>
+                <a href={url} target="_blank" >
+                    <h2>{title}</h2>
+                </a>
                 {genres?.map((g) =>(
                 <li key={g}>{g}</li>
                 ))}

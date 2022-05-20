@@ -9,8 +9,6 @@ function Detail() {
 
     const { id } = useParams();
 
-    
-
     useEffect(()=>{
         const getMovies = async () => {
             const json = await(
