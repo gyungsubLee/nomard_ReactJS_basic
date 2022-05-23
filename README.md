@@ -13,7 +13,8 @@ Component, 함수형, JSX 정리 필요
 
 ## Chapter3([React의 State 개념 배우기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2))
 
-[React의 DOM 업데이트](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1127236131) -> 브라우저 작동원리(DOM Tree), DOM, 가상DOM 정리 필요
+[React의 DOM 업데이트](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1127236131)  -   [DOM](https://github.com/gyungsubLee/sparta_ReactJS_Basic/issues/1#issuecomment-1134208983)
+<br/>-> 브라우저 작동원리, 가상DOM 정리 필요
 
 [JSX문법-property명, iput-State처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/2#issuecomment-1128396367)
 
@@ -51,7 +52,7 @@ Component, 함수형, JSX 정리 필요
 
 ## Chapter5([CRA를 이용한 ReactJS 사용하기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4))
 
-[CRA설치방법](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128882532) -> yarn정리 필요
+[CRA설치방법](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128882532) -> [nvm, npm, yarn](https://github.com/gyungsubLee/sparta_ReactJS_Basic/issues/1#issuecomment-1134724042)
 
 [React - CSS ](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/4#issuecomment-1128985824)
 
@@ -65,7 +66,7 @@ Component, 함수형, JSX 정리 필요
   [useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129710634)
 
   [ 오류노트 - callback](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1129519000)
-  ->  1급객체, callback, 익명함수, arrow function 정리 필요
+  ->  [1급객체, 익명함수, arrow function](https://github.com/gyungsubLee/sparta_ReactJS_Basic/issues/1#issuecomment-1134610634), callback 정리 필요
 
   [오류노트 - useEffect](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/5#issuecomment-1131042191) 
   ->  SPA, React_Component, Effect, ~~useEffect~~ 정리 필요 
@@ -75,14 +76,14 @@ Component, 함수형, JSX 정리 필요
 ### Chapter7([간단한 Application 만들기](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6))
 
   [CRUD, 불변성, 예외처리](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131268396)
-  -> update, 불변성, 스프레드 문법 정리 필요
+  -> [스프레드 문법](https://github.com/gyungsubLee/sparta_ReactJS_Basic/issues/1#issuecomment-1134632619) update, 불변성, 정리 필요
 
   [웹스토리지-localstorage, sessionStorage](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131355647)
 
-  [배열의 내장함수](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131409429) -> 배열의 내장함수(map, filter ...) 정리 필요
+  [배열의 내장함수](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131409429) ->[배열의 내장함수(map, filter ...)](https://github.com/gyungsubLee/sparta_ReactJS_Basic/issues/1#issuecomment-1134671965)
 
   [fetch, HTTP요청메소트, 프로미스]() 
-  -> fetch, HTTP요청메소드, 프로미스 정리 필요
+  -> fetch(json()), HTTP요청메소드, 프로미스 정리 필요
 
   [JSX <-> JS](https://github.com/gyungsubLee/nomard_ReactJS_basic/issues/6#issuecomment-1131585181)
 
